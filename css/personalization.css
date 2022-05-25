@@ -1,7 +1,5 @@
 #mainNav{
     background-color: #718B82;
-    font-family: 'Unna', serif;
-    font-size: 40pt;
 }
 #about {
     background-color: #718B82;
@@ -21,30 +19,6 @@
 #contact{
     background-color: #F3EFD6;
 }
-h1{
-    font-size: 96pt;
-    font-weight: bold;
-}
-h2{
-    font-size: 40pt;
-    font-weight: bold;
-}
-h3{
-    font-size:40pt;
-    font-weight: bold;
-    font-style: italic;
-}
-h4{
-    font-size: 32pt;
-    font-weight: bold;
-    font-style: italic;
-}
-h5{
-    font-size: 20pt;
-    font-weight: bold;
-    font-style: italic;
-}
-h6{
-    font-size: 16pt;
-    font-weight: bold;
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-family: 'Unna', serif;
 }

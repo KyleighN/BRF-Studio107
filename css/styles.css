@@ -3028,16 +3028,52 @@ textarea.form-control-lg {
   opacity: 0.65;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #728C84;
-  font-size: 20px;
 
-}
-.btn-primary:hover {
-  color: #fff;
+.btn-call {
+  position: relative;
+  width: 200px;
+  height: 60px;
+  overflow: hidden;
+  border: none;
+  border-radius: 30px;
   background-color: #C2956E;
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  outline: none;
+  cursor: pointer;
 }
+.btn-call::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: 'Call';
+  transition: all .3s;
+}
+.btn-call::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: 'Click';
+  transition: all .3s;
+}
+.btn-call:hover::before {
+  top: -60px;
+}
+.btn-call:hover::after {
+  top: 0;
+}
+
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
   background-color: #d9aa00;

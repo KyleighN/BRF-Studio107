@@ -22,3 +22,12 @@
 #mainNav .navbar-nav .nav-item .nav-link {
     font-family: 'Unna', serif;
 }
+.timeline-heading .timeline-body{
+    color: #F3EFD6;
+}
+.timeline-heading{
+    font-family: 'Unna', serif;
+}
+.timeline-body{
+    font-family: 'Poppins', sans-serif;
+}

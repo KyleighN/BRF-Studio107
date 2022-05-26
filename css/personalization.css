@@ -31,3 +31,12 @@
 .timeline-body{
     font-family: 'Poppins', sans-serif;
 }
+.timeline .timeline-heading h4, .timeline{
+    color: #F3EFD6;
+}
+.salonHours{
+    color: #F3EFD6;
+}
+.salonContact{
+    color: #F3EFD6;
+}

@@ -24,7 +24,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="#page-top"><img src="images/logo.svg" ></a>
+            <a class="navbar-brand" href="#page-top"><img src="images/logo.svg"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -47,8 +47,7 @@
         <div class="container">
             <div class="masthead-subheading"> Welcome To Studio 107!</div>
             <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-            <button type="button" class="btn btn-primary btn-xlg" href="tel:715-284-2131"
-                style="padding:20px;">
+            <button type="button" class="btn btn-primary btn-xlg" href="tel:715-284-2131" style="padding:20px;">
                 Call Now <span class="glyphicon glyphicon-earphone"
                     style="padding-left:10px; padding-right:10px;"></span>
             </button>
@@ -156,10 +155,10 @@
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                   <image class='hairicon' src="/images/hairICON.png"> </image>
+                        <image class='hairicon' src="/images/hairICON.png"> </image>
                     </span>
                     <h4 class="my-3">Hair</h4>
-                   
+
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -172,7 +171,7 @@
                         <image class='nailicon' src="/images/nail.png"> </image>
                     </span>
                     <h4 class="my-3">Nails</h4>
-                   
+
                 </div>
             </div>
         </div>
@@ -312,7 +311,7 @@
     <section class="page-section bg-light" id="testimonials">
         <div>
             <h2>Client Testimonials</h2>
-            <div class="bquote">
+            <div class="bquote" id="quoteOne">
                 <figure>
                     <blockquote class="blockquote">
                         <p>"Affordable, friendly atmosphere, beautiful make up, hair styles and cuts that make you smile
@@ -323,9 +322,9 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="bquote">
+            <div class="bquote" id="quoteTwo">
                 <figure>
-                    <blockquote class="blockquote">
+                    <blockquote class="blockquote" >
                         <p>“Hannah was very professional and really interested in how I wanted my hair cut. She did a
                             fantastic job. I will definitely be back”</p>
                     </blockquote>
@@ -334,9 +333,9 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="bquote">
+            <div class="bquote" id="quoteThree">
                 <figure>
-                    <blockquote class="blockquote">
+                    <blockquote class="blockquote" >
                         <p>“Always great! Tonight I changed it up and have bangs. (It's been years) Totally trust Sam
                             and she did an awesome job. Toss in a little blonde and I am set for the holidays. Get the
                             deep condition treatment, my hair feels like silk!!”</p>
@@ -346,7 +345,7 @@
                     </figcaption>
                 </figure>
             </div>
-            <div class="bquote">
+            <div class="bquote" id="quoteFour">
                 <figure>
                     <blockquote class="blockquote">
                         <p>“The ladies were incredibly welcoming and kind for my 4 y.o hair cut. Her stylist also gave
@@ -355,17 +354,6 @@
                     </blockquote>
                     <figcaption class="blockquote-footer">
                         <cite title="Source Title">Elizabeth</cite>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="bquote">
-                <figure>
-                    <blockquote class="blockquote">
-                        <p>“Randi was AWESOME!!! She is so sweet and very knowledgeable. Perfect cut. I recommend her
-                            and the salon to everyone!!”</p>
-                    </blockquote>
-                    <figcaption class="blockquote-footer">
-                        <cite title="Source Title">D'Anne</cite>
                     </figcaption>
                 </figure>
             </div>
@@ -380,90 +368,41 @@
     </section>
     <!-- Contact-->
     <section class="page-section" id="contact">
+        <!-- Add google Map location plugin?-->
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Contact Us</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">The best way to reach us is by phone.</h3>
             </div>
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <!-- Name input-->
-                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                                data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                        </div>
-                        <div class="form-group">
-                            <!-- Email address input-->
-                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
-                                data-sb-validations="required,email" />
-                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                        </div>
-                        <div class="form-group mb-md-0">
-                            <!-- Phone number input-->
-                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                                data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <!-- Message input-->
-                            <textarea class="form-control" id="message" placeholder="Your Message *"
-                                data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Submit success message-->
-                <!---->
-                <!-- This is what your users will see when the form-->
-                <!-- has successfully submitted-->
-                <div class="d-none" id="submitSuccessMessage">
-                    <div class="text-center text-white mb-3">
-                        <div class="fw-bolder">Form submission successful!</div>
-                        To activate this form, sign up at
-                        <br />
-                        <a
-                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                    </div>
-                </div>
-                <!-- Submit error message-->
-                <!---->
-                <!-- This is what your users will see when there is-->
-                <!-- an error submitting the form-->
-                <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3">Error sending message!</div>
-                </div>
-                <!-- Submit Button-->
-                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled"
-                        id="submitButton" type="submit">Send Message</button></div>
-            </form>
-        </div>
+            <div class="salonHours"> 
+                <h3>Salon Hours</h3>
+                <p>Monday: 10am - 6pm <br>
+                    Tuesday: 8am - 7pm<br>
+                    Wednesday: 9am - 7pm<br>
+                    Thursday: 9am - 7pm<br>
+                    Friday: 8am - 7pm<br>
+                    Saturday: 8am - 4pm<br>
+                    Sunday: Closed </p>
+            </div>
+            <div class="salonContact">
+                <h3>Salon Contact Information </h3>
+                <p> Address: 310 County Road A, Black River Falls, WI 54615 <br>
+                    Phone: (715) 284-2131<br>
+                    Email: brfstudio107@gmail.com</p>
+            </div>
     </section>
     <!-- Footer-->
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
+                <div class="col-lg-4 text-lg-start">Copyright &copy; Studio 107, June 2022</div>
                 <div class="col-lg-4 my-3 my-lg-0">
 
-                    <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/brfstudio107" aria-label="Facebook"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/brfstudio107/?hl=en" aria-label="Instagram"><i
-                            class="fab fa-insta-gram-i"></i></a>
-                  
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/brfstudio107"
+                        aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/brfstudio107/?hl=en"
+                        aria-label="Instagram"><i class="fab fa-insta-gram-i"></i></a>
+
                 </div>
                 <div class="col-lg-4 text-lg-end">
                     <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
@@ -483,28 +422,25 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <!-- details-->
+                                <h2 class="text-uppercase">Kelly Nieman</h2>
+                                <p class="item-intro text-muted">Owner and Cosmetologist</p>
                                 <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <p>My name is Kelly Nieman. I have been a cosmetologist for 16 years and have been the owner of BRF Studio 107 since January of 2009. I was born and raised in Black River Falls and still live here with my husband and my two amazing children. My favorite part about being a cosmetologist is making people feel good about themselves. </p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong>
-                                        Threads
+                                        <strong>Years of service:</strong>
+                                        16
                                     </li>
                                     <li>
-                                        <strong>Category:</strong>
-                                        Illustration
+                                        <strong>Services Offered:</strong>
+                                        Women's Cut, Men's Cut, Child's Cut, Beard Trim, Manicure, Pedicure, Waxing (FACIAL Only), Full or partial Color, Hair extentions, Perm, Hair relaxer, Balayage/Ombre
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -522,31 +458,30 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
-                            <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Explore
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Graphic Design
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
-                                </button>
-                            </div>
+                                <div class="modal-body">
+                                    <!--  details-->
+                                    <h2 class="text-uppercase">Sam Marg</h2>
+                                    <p class="item-intro text-muted">Cosmetologist</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                    <p>Hi, my name is Sam. I am a BRF local. I attended school here in BRF, but I attended cosmetology at The Salon Professional Academy in Onalaska. Though school taught me a lot being out in the field has taught me so much more. As a salon we love attending hair shows whenever we can to learn the trends! Being from our amazing community I am glad l can raise my daughter in our little town. I am a small town girl who loves to make others feel beautiful.
+                                    </p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Years of service:</strong>
+                                            14
+                                        </li>
+                                        <li>
+                                            <strong>Services Offered:</strong>
+                                            Women's Cut, Men's Cut, Child's Cut, Beard Trim, Manicure, Pedicure, Waxing (FACIAL Only), Full or partial Color, Perm, Balayage/Ombre
+
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                        type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -563,28 +498,28 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <!--  details-->
+                                <h2 class="text-uppercase">Chealsey Sanchez</h2>
+                                <p class="item-intro text-muted">Cosmetologist</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <p> Hello Beautiful, my name is Chealsey Sanchez and I’ve been a cosmetologist for 11 years. I received my education at The Salon Professional Academy in La Crosse Wisconsin.
+                                    I was born and raised in Black River Falls but it wasn’t until after my husband and I were married we chose to make Black River our home. We currently live here with our amazing daughter and fur babies. 
+                                 I love being a cosmetologist and look forward to coming to work. My favorite things about working in the industry are making people feel pampered, beautiful, and the connections I get to have with my guests. Working in a small town allows me to build beautiful relationships, fills my heart, and fuels my passion for cosmetology. 
+                                 </p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong>
-                                        Finish
+                                        <strong>Years of service:</strong>
+                                        11
                                     </li>
                                     <li>
-                                        <strong>Category:</strong>
-                                        Identity
+                                        <strong>Services Offered:</strong>
+                                        Women's Cut, Men's Cut, Child's Cut, Beard Trim, Manicure, Pedicure, Waxing (FACIAL Only), Make-up, Full or partial Color, Hair extentions, Perm, Balayage/Ombre, Bridal and special occasion updos
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -603,29 +538,27 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Lines
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Branding
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
-                                </button>
+                               <!--  details-->
+                               <h2 class="text-uppercase">Hannah Brooke</h2>
+                               <p class="item-intro text-muted">Cosmetologist</p>
+                               <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                               <p> I grew up in Hixton and went to Black River Falls High-school. I studied to be a cosmetologist at salon professional academy in Onalaska. I currently live in Sparta with my fiance and my son and our fur babies. I have always aspired to do hair since I was a toddler. </p>
+                               <ul class="list-inline">
+                                   <li>
+                                       <strong>Years of service:</strong>
+                                       8
+                                   </li>
+                                   <li>
+                                       <strong>Services Offered:</strong>
+                                       Women's Cut, Men's Cut, Child's Cut, Beard Trim, Manicure, Pedicure, Waxing (FACIAL Only), Full or partial Color, Hair extentions, Perm, Hair relaxer, Balayage/Ombre
+
+                                   </li>
+                               </ul>
+                               <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                   type="button">
+                                   <i class="fas fa-xmark me-1"></i>
+                                   Close
+                               </button>
                             </div>
                         </div>
                     </div>
@@ -643,28 +576,25 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <!--  details-->
+                                <h2 class="text-uppercase">Marley Washburn/h2>
+                                <p class="item-intro text-muted">Cosmetologist</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <p>I grew up and still live in Eau Claire, WI. With my husband, two kids, and a dog. I graduated from the Professional Hair Design Academy. I happily drive to and from Eau Claire because I love my job and my salon family.  I have a passion for the beauty industry. I throughly enjoy making people beautiful. My favorite thing to do is color.</p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong>
-                                        Southwest
+                                        <strong>Years of service:</strong>
+                                        5
                                     </li>
                                     <li>
-                                        <strong>Category:</strong>
-                                        Website Design
+                                        <strong>Services Offered:</strong>
+                                        Women's Cut, Men's Cut, Child's Cut, Beard Trim, Manicure, Pedicure, Waxing (FACIAL Only), Full or partial Color, Perm, Hair relaxer, Balayage/Ombre
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -683,28 +613,25 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <!--  details-->
+                                <h2 class="text-uppercase">Randi Hale</h2>
+                                <p class="item-intro text-muted">Cosmetologist</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <p>Hi, I’m Randi, I’m 26 and I’m from Taylor, WI. I graduated from cosmetology school at The Professional Hair Design Academy in Eau Claire in 2021. It’s just my boyfriend Darin and our two cats Cooper and Rambo at home. I spend a lot of my time when I’m not at work with my family doing things like watching scary movies, kayaking, bonfires and camping. I love doing hair and have learned so much from the other ladies at Studio 107. </p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong>
-                                        Window
+                                        <strong>Years of service:</strong>
+                                        1
                                     </li>
                                     <li>
-                                        <strong>Category:</strong>
-                                        Photography
+                                        <strong>Services Offered:</strong>
+                                        Women's Cut, Men's Cut, Child's Cut, Beard Trim, Manicure, Pedicure, Waxing (FACIAL Only), Full or partial Color, Perm, Balayage/Ombre
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -722,28 +649,25 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <!--  details-->
+                                <h2 class="text-uppercase">Michelle Zank</h2>
+                                <p class="item-intro text-muted">Cosmetologist</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                <p>More on this stylist soon. </p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Client:</strong>
-                                        Window
+                                        <strong>Years of service:</strong>
+                                        Unknown
                                     </li>
                                     <li>
-                                        <strong>Category:</strong>
-                                        Photography
+                                        <strong>Services Offered:</strong>
+                                        Unknown
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
                                     type="button">
                                     <i class="fas fa-xmark me-1"></i>
-                                    Close Project
+                                    Close
                                 </button>
                             </div>
                         </div>
@@ -761,29 +685,28 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="modal-body">
-                                <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
-                                <ul class="list-inline">
-                                    <li>
-                                        <strong>Client:</strong>
-                                        Window
-                                    </li>
-                                    <li>
-                                        <strong>Category:</strong>
-                                        Photography
-                                    </li>
-                                </ul>
-                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
-                                    type="button">
-                                    <i class="fas fa-xmark me-1"></i>
-                                    Close Project
-                                </button>
+                               <!-- details-->
+                               <h2 class="text-uppercase">Coming Soon</h2>
+                               <p class="item-intro text-muted">Esthetician</p> 
+                               <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                               <p>Hi, if you know or are a Esthetician please send your resume to the Salon Email brfstudio107@gmail.com. 
+                               </p>
+                               <ul class="list-inline">
+                                   <li>
+                                       <strong>Years of service:</strong>
+                                       Any
+                                   </li>
+                                   <li>
+                                       <strong>Services Offered:</strong>
+                                        Manicure, Pedicure, Waxing Services, Facials
+
+                                   </li>
+                               </ul>
+                               <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                   type="button">
+                                   <i class="fas fa-xmark me-1"></i>
+                                   Close
+                               </button>
                             </div>
                         </div>
                     </div>

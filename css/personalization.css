@@ -1,7 +1,5 @@
 #mainNav{
     background-color: #718B82;
-    font-family: 'Unna', serif;
-    font-size: 40pt;
 }
 #about {
     background-color: #718B82;
@@ -21,30 +19,43 @@
 #contact{
     background-color: #F3EFD6;
 }
-h1{
-    font-size: 96pt;
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-family: 'Unna', serif;
+}
+.timeline-heading .timeline-body{
+    color: #F3EFD6;
+}
+.timeline-heading{
+    font-family: 'Unna', serif;
+}
+.timeline-body{
+    font-family: 'Poppins', sans-serif;
+}
+.timeline .timeline-heading h4, .timeline{
+    color: #F3EFD6;
+}
+.salonHours{
+    color: #F3EFD6;
+}
+.salonContact{
+    color: #F3EFD6;
+}
+#mainNav.navbar-shrink {
+    background-color: #718B82;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #374540;
     font-weight: bold;
 }
-h2{
-    font-size: 40pt;
-    font-weight: bold;
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 505px;
+    width: 100%;
 }
-h3{
-    font-size:40pt;
-    font-weight: bold;
-    font-style: italic;
-}
-h4{
-    font-size: 32pt;
-    font-weight: bold;
-    font-style: italic;
-}
-h5{
-    font-size: 20pt;
-    font-weight: bold;
-    font-style: italic;
-}
-h6{
-    font-size: 16pt;
-    font-weight: bold;
+.mapouter {
+    position: relative;
+    text-align: left;
+    height: 505px;
+    width: 100%;
 }

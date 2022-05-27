@@ -40,3 +40,10 @@
 .salonContact{
     color: #F3EFD6;
 }
+#mainNav.navbar-shrink {
+    background-color: #718B82;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #374540;
+    font-weight: bold;
+}

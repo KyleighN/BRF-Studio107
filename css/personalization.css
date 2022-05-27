@@ -47,3 +47,15 @@
     color: #374540;
     font-weight: bold;
 }
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 505px;
+    width: 100%;
+}
+.mapouter {
+    position: relative;
+    text-align: left;
+    height: 505px;
+    width: 100%;
+}

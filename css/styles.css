@@ -3064,7 +3064,7 @@ textarea.form-control-lg {
   left: 0;
   width: 100%;
   height: 100%;
-  content: 'Click';
+  content: 'Now';
   transition: all .3s;
 }
 .btn-call:hover::before {

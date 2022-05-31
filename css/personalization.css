@@ -6,6 +6,8 @@
 }
 #services{
     background-color: #F3EFD6;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 #stylists{
     background-color: #718B82;
@@ -20,7 +22,7 @@
     background-color: #F3EFD6;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-    font-family: 'Poppins', serif;
+    font-family: 'Unna', serif;
 }
 .timeline-heading .timeline-body{
     color: #F3EFD6;
@@ -36,15 +38,22 @@
 }
 .salonHours{
     color: #F3EFD6;
+    font-style: italic;
+    text-align: center;
 }
 .salonContact{
     color: #F3EFD6;
+    font-style: italic;
+    text-align: center;
 }
 #mainNav.navbar-shrink {
     background-color: #718B82;
+    border-color: #374540;
+    border-bottom-style: solid;
+    border-width: medium;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #e6c2a3;
+    color: #374540;
     font-weight: bold;
 }
 .gmap_canvas {
@@ -59,3 +68,56 @@
     height: 505px;
     width: 100%;
 }
+.map{
+    width: auto;
+}
+.blockquote{
+   padding-left: 25pt;
+   padding-top: 20pt;
+   padding-right: 25pt;
+   padding-bottom: 20pt;
+}
+
+h3 #socialMedia{
+    text-align: center;
+}
+
+svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+}
+.svg-inline--fa {
+    display: var(--fa-display,inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+}
+img, svg {
+    vertical-align: middle;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+svg:not(:root) {
+    overflow: hidden;
+}
+.btn-dark {
+    background-color: #F3EFD6;
+    color:#374540;
+    border-color: #F3EFD6;
+}
+.btn-dark:hover {
+    background-color: #374540;
+    color: #F3EFD6;
+    border-color: #374540;
+}
+section#contact .section-heading {
+    color: #F3EFD6
+}
+.footer{
+    background-color: #718B82;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #C2956E;}

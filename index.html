@@ -158,23 +158,50 @@
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <image class='hairicon' src="/images/hairICON.png"> </image>
                     </span>
-                    <h4 class="my-3">Hair</h4>
-
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#hairModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content">
+                                    </div>
+                                </div>
+                                <image class='hairicon' src="/images/hairICON.png"> </image>
+                            </a>
+                            <h4 class="my-3">Hair</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x"></span>
+                    </span>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#skinModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"></div>
+                                </div>
+                                <image class='skinicon' src="/images/skin.png"> </image>
+                            </a>
+                            <h4 class="my-3">Skin</h4>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <image class='skinicon' src="/images/skin.png"> </image>
                     </span>
-                    <h4 class="my-3">Skin</h4>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <image class='nailicon' src="/images/nail.png"> </image>
-                    </span>
-                    <h4 class="my-3">Nails</h4>
-
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Stylist 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#nailModal">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"></i></div>
+                                </div>
+                                <image class='nailicon' src="/images/nail.png"> </image>
+                            </a>
+                            <h4 class="my-3">Nails</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -365,11 +392,17 @@
         </div>
     </section>
     <!-- Social Media -->
-    <div class="taggbox-container" style="width:100%;height:100%;overflow: auto;">
-        <div class="taggbox-socialwall" data-wall-id="96133" view-url="https://widget.taggbox.com/96133"></div>
-        <script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script>
-    </div>
+    <section id="socialMedia">
+        <h3>Follow Us on Social Media</h3>
+        <div class="taggbox-container" style="width:100%;height:100%;overflow: auto;">
+            <div class="taggbox-socialwall" data-wall-id="96133" view-url="https://widget.taggbox.com/96133"></div>
+            <script src="https://widget.taggbox.com/embed.min.js" type="text/javascript"></script>
+        </div>
+    </section>
     <!-- Contact-->
+    <section class="map">
+        <div class="mapouter" style="width:100%;height:100%;overflow: auto;">
+            <div class="gmap_canvas"><iframe max-width=100% height="505" id="gmap_canvas"
     <section class="page-section" id="contact">
         <div class="mapouter">
             <div class="gmap_canvas"><iframe max-width=200% height="505" id="gmap_canvas"
@@ -377,6 +410,8 @@
                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
         </div>
+    </section>
+    <section class="page-section" id="contact">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Location and Hours</h2>
@@ -757,6 +792,177 @@
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Hair Modal -->
+    <div class="portfolio-modal modal fade" id="hairModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <h3>Hair Cuts</h3>
+                                <p>
+                                    Hair
+                                    Cut......................................................................$27
+                                    Clipper Cut...............................................................$19
+                                    Child's Cut (10 & under)..................................$19
+                                    Bang Trim..................................................................$10
+                                    Beard Trim................................................................$10
+                                </p>
+
+                                <h3>Hair Styling</h3>
+
+                                <p>Shampoo & Set/Style....................................$21+
+                                    Special Occasion Down Style.................$30+
+                                    Special Occasion Up Style.......................$45+
+                                    Trial Run.................................................................$35+
+                                </p>
+
+                                <h3>Color Services</h3>
+
+                                <p> Root Retouch.....................................................$45+
+                                    All Over One Color..........................................$55+
+                                    Foil Hi/Lo-lite.......................................................$75+
+                                    All Over Color w/Foils...................................$90+
+                                    Partial Foil.............................................................$55+
+                                    Balayage/Ombre...........................................$105+
+                                    Color Correction.............................................$150+
+                                    Color Removal...................................................$20+
+                                    Additional Color..................................................$12+
+                                </p>
+                                <h3>Texture Services</h3>
+
+                                <p> Partial Perm........................................................$35+
+                                    Perm........................................................................$45+
+                                    Spiral/Specialty Wrap Perm...................$75+
+                                    Cold Smoothing Relaxer............................$75+
+                                    Heat Straightening Relaxer....................$125+
+                                </p>
+                                <h3>Hair Extensions</h3>
+                                <p>
+                                    14" Full Head......................................................$541+
+                                    18" Full Head.....................................................$677+
+                                    22" Full Head.....................................................$773+
+                                    Removal & Re-Application....................$150+
+                                    Fun Color (Per Extension)...............................$10
+                                </p>
+
+                                <h3>Treatment Services</h3>
+                                <p>
+                                    Hard Water Treatment.............................$20
+                                    Chlorine Treatment.....................................$20
+                                    Deep Conditioning Treatment............$20
+                                </p>
+
+                            </div>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Skin Modal -->
+<div class="portfolio-modal modal fade" id="skinModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                    alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- details-->
+                            <div class="modal-body">
+                                <h3> Waxing Services</h3>
+                                <p>
+                                    Brow
+                                    .............................................................................$14<br>
+                                    Lip.....................................................................................$8<br>
+                                    Chin................................................................................$8<br>
+                                    Nose...............................................................................$8<br>
+                                    Face.............................................................................$28<br>
+                                    Under Arm...............................................................$20<br>
+                                    Half
+                                    Leg......................................................................$25<br>
+                                    Full
+                                    Leg.......................................................................$60<br>
+                                    Bikini............................................................................$30<br>
+                                    Brazilian....................................................................$65<br>
+                                </p>
+                                <h3>Tanning Services </h3>
+                                <p>
+                                    Single Session.........................................$7<br>
+                                    12 Session Package.............................$40<br>
+                                    17 Session Package.............................$50<br>
+                                    25 Session Package............................$60
+                                    One Month Unlimited Package...$50
+                                </p>
+                                <h3>Make-up Services </h3>
+                                <p>
+                                    Airbrush Make-up...........................$50+<br>
+                                    Regular Make-up.............................$40+<br>
+                                    Eye Make-up Only...........................$20+<br>
+                                    Lashes......................................................$15
+                                </p>
+                            </div>
+                            </ul>
+                            <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                type="button">
+                                <i class="fas fa-xmark me-1"></i>
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Nail Modal -->
+    <div class="portfolio-modal modal fade" id="nailModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg"
+                        alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- details-->
+                                <div class="Nail-body">
+                                    <h3>Nail Services </h3>
+                                    <p>
+                                        Manicure...............................................$25<br>
+                                        Gel Polish..............................................$30<br>
+                                        Manicure with Gel Polish...........$35<br>
+                                        Spa Pedicure.....................................$35<br>
+                                        Spa Pedicure with Gel Polish..$45<br>
+                                        Gel Polish Removal.......................$15+
+                                        Paraffin Dip.........................................$15<br>
+                                        Toe Nail Dip.........................................$12<br>
+                                    </p>
+                                </div>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

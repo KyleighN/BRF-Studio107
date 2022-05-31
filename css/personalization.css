@@ -20,7 +20,7 @@
     background-color: #F3EFD6;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-    font-family: 'Unna', serif;
+    font-family: 'Poppins', serif;
 }
 .timeline-heading .timeline-body{
     color: #F3EFD6;
@@ -44,7 +44,7 @@
     background-color: #718B82;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #374540;
+    color: #e6c2a3;
     font-weight: bold;
 }
 .gmap_canvas {
@@ -58,7 +58,4 @@
     text-align: left;
     height: 505px;
     width: 100%;
-}
-.map{
-    width: auto;
 }

@@ -71,7 +71,6 @@
 .map{
     width: auto;
 }
-}
 .blockquote{
    padding-left: 25pt;
    padding-top: 20pt;
@@ -83,14 +82,10 @@ h3 #socialMedia{
     text-align: center;
 }
 
-element.style {
-}
-<style>
 svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     overflow: visible;
     box-sizing: content-box;
 }
-<style>
 .svg-inline--fa {
     display: var(--fa-display,inline-block);
     height: 1em;
@@ -125,4 +120,4 @@ section#contact .section-heading {
 }
 .btn-primary:hover {
     color: #fff;
-    background-color: #C2956E;
+    background-color: #C2956E;}

@@ -98,7 +98,6 @@ img, svg {
 *, *::before, *::after {
     box-sizing: border-box;
 }
-user agent stylesheet
 svg:not(:root) {
     overflow: hidden;
 }

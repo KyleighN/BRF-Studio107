@@ -121,3 +121,7 @@ section#contact .section-heading {
 .btn-primary:hover {
     color: #fff;
     background-color: #C2956E;}
+#icon{
+    padding-left: 8%;
+    text-align: center;
+}

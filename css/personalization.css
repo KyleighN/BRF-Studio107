@@ -125,3 +125,20 @@ section#contact .section-heading {
     padding-left: 8%;
     text-align: center;
 }
+#stylistsphoto{
+    height: 200px;
+    width: 150px;
+    border-image: 5px;
+    border-color: #374540;
+}
+.portfolio-caption-heading{
+    font-size: large;
+    font-family: 'Unna', serif;
+    font-weight: bold;
+}
+.instafeed{
+    padding: 15px;
+}
+#AboutStudio{
+    color: #F3EFD6;
+}

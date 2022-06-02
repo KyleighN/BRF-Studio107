@@ -98,7 +98,6 @@ img, svg {
 *, *::before, *::after {
     box-sizing: border-box;
 }
-user agent stylesheet
 svg:not(:root) {
     overflow: hidden;
 }
@@ -132,7 +131,7 @@ section#contact .section-heading {
     border-color: #374540;
 }
 .portfolio-caption-heading{
-    font-size: large;
+    font-size: 25px;
     font-family: 'Unna', serif;
     font-weight: bold;
 }
@@ -141,4 +140,18 @@ section#contact .section-heading {
 }
 #AboutStudio{
     color: #F3EFD6;
+}
+.portfolio-modal p h2{
+   max-width: 410px;
+}
+.modalContentText{
+    max-width: 410px;
+    text-align: center;
+    margin: auto;
+}
+#label{
+    color: #374540 !important;
+}
+.modal-dialog{
+    background-color: #F3EFD6;
 }

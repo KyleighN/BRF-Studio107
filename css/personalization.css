@@ -94,6 +94,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 }
 img, svg {
     vertical-align: middle;
+    order: 1px solid transparent;
 }
 *, *::before, *::after {
     box-sizing: border-box;
@@ -102,27 +103,27 @@ svg:not(:root) {
     overflow: hidden;
 }
 .btn-dark {
-    background-color: #F3EFD6;
-    color:#374540;
     border-color: #F3EFD6;
 }
-.btn-dark:hover {
-    background-color: #374540;
-    color: #F3EFD6;
+/* .btn-dark:hover {
+    background-color: #F3EFD6;
+    color:#374540;
     border-color: #374540;
-}
+ } */
+
 section#contact .section-heading {
     color: #F3EFD6
 }
 .footer{
     background-color: #718B82;
 }
-.btn-primary:hover {
-    color: #fff;
-    background-color: #C2956E;}
+/* .btn-primary:hover {
+    background-color: #374540;
+    color: #F3EFD6;} */
 #icon{
     padding-left: 8%;
     text-align: center;
+    border: 1px transparent;
 }
 #stylistsphoto{
     height: 200px;
@@ -154,4 +155,12 @@ section#contact .section-heading {
 }
 .modal-dialog{
     background-color: #F3EFD6;
+}
+#mastheadCallbutton{
+    color: #fff;
+    background-color: #C2956E;
+    font-family: unna, serif;
+}
+.instafeed{
+    padding: 30px;
 }

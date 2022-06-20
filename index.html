@@ -22,9 +22,6 @@
 </head>
 
 <body id="page-top">
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0"
-        nonce="DPoZ9Ve1"></script>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
@@ -43,6 +40,10 @@
                     <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
                     <li class="nav-item"><a class="nav-link" href="#socialMedia">Social Media</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <button type="button" class="btn btn-primary btn-xlg" id="headerCallbutton" href="tel:715-284-2131"
+                        style="padding:10px 10px 10px 10px;font-size: 16px;font-family: unna, serif;background-color: #374540;">
+                        Call Now</span>
+                    </button>
                 </ul>
             </div>
         </div>
@@ -52,8 +53,8 @@
         <div class="container">
             <div class="masthead-heading text-uppercase">Welcome to Studio 107!</div>
             <div class="masthead-subheading" style="font-size: 2 rem;"> located in Black River Falls, Wisconsin </div>
-            <button type="button" class="btn btn-primary btn-xlg" href="tel:715-284-2131"
-                style="padding:10px 20px 10px 20px;">
+            <button type="button" class="btn btn-primary btn-xlg" id="mastheadCallbutton" href="tel:715-284-2131"
+                style="padding:10px 20px 10px 20px; width: 200px">
                 Call Now</span>
             </button>
         </div>
@@ -168,13 +169,12 @@
                 <div class="col-md-4" id="icon">
                     <span class="fa-stack fa-4x"></span>
                     <div class="col-sm-6 mb-4">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item-primary">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#hairModal">
                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content">
-                                    </div>
+                                    <div class="portfolio-hover-content"></div>
+                                    <image class='hairicon' src="images/hairICON.png"> </image>
                                 </div>
-                                <image class='hairicon' src="images/hairICON.png"> </image>
                             </a>
                             <h4 class="my-3">Hair</h4>
                         </div>
@@ -183,7 +183,7 @@
                 <div class="col-md-4" id="icon">
                     <span class="fa-stack fa-4x"></span>
                     <div class="col-sm-6 mb-4">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item-primary">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#skinModal">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"></div>
@@ -197,7 +197,7 @@
                 <div class="col-md-4" id="icon">
                     <span class="fa-stack fa-4x"></span>
                     <div class="col-sm-6 mb-4">
-                        <div class="portfolio-item">
+                        <div class="portfolio-item-primary">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#nailModal">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"></i></div>
@@ -407,11 +407,6 @@
         <div class="text-center">
             <h2 class="section-heading text-uppercase" style=" color:#F3EFD6;">Follow Us on Social Media</h2>
         </div>
-        <div class="text-center col">
-            <div class="fb-page" data-href="https://www.facebook.com/brfstudio107" data-tabs="timeline"
-                data-width="500px" data-height="500px" data-small-header="false" data-adapt-container-width="true"
-                data-hide-cover="false" data-show-facepile="true"></div>
-        </div>
         <div class="instafeed col">
             <blockquote class="instagram-media"
                 data-instgrm-permalink="https://www.instagram.com/brfstudio107/?utm_source=ig_embed&amp;utm_campaign=loading"
@@ -509,6 +504,7 @@
             </blockquote>
         </div>
         <script async src="//www.instagram.com/embed.js"></script>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fbrfstudio107&tabs&width=550px&height=550px&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" class= "col" width="550px" height="550px" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </section>
     <!-- Contact-->
     <section class="page-section" id="contact">
@@ -517,30 +513,10 @@
                 <h2 class="section-heading text-uppercase">Location and Hours</h2>
             </div>
             <div class="container-fluid" style=" padding-bottom: 20px;">
-                <div class="mapouter">
-                    <div class="gmap_canvas"><iframe width="1150" height="327" id="gmap_canvas"
-                            src="https://maps.google.com/maps?q=310%20County%20Rd%20A%20Black%20River%20Falls,%20WI%2054615&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                            href="https://www.whatismyip-address.com/divi-discount/"> </a><br>
-                        <style>
-                            .mapouter {
-                                position: relative;
-                                text-align: right;
-                                height: 327px;
-                                width: auto;
-                            }
-                        </style><a href="https://www.embedgooglemap.net"></a>
-                        <style>
-                            .gmap_canvas {
-                                overflow: hidden;
-                                background: none !important;
-                                height: 327px;
-                                width: auto;
-                                padding-bottom: 20px;
-                            }
-                        </style>
-                    </div>
-                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2855.183856375157!2d-90.85157578510398!3d44.30617067910434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87fee693d75ec941%3A0x13deaff548cffadc!2sStudio%20107!5e0!3m2!1sen!2sus!4v1655757589234!5m2!1sen!2sus"
+                    width="1092" height="325" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="container-fluid row">
                 <div class="salonHours col-sm">
@@ -853,7 +829,10 @@
                                 <h2 class="text-uppercase">Michelle Zank</h2>
                                 <p class="item-intro text-muted" id="label">Cosmetologist</p>
                                 <img class="img-fluid d-block mx-auto" src="images/michelle.jpeg" alt="..." />
-                                <p>My name is Michelle Zank. I live in Augusta, WI with my husband and 2 beautiful daughters. I went to cosmetology school in Eau Claire, WI.  I love my job at BRF Studio 107 because of the amazing clients we get to serve and my fun co workers.  </p>
+                                <p>My name is Michelle Zank. I live in Augusta, WI with my husband and 2 beautiful
+                                    daughters. I went to cosmetology school in Eau Claire, WI. I love my job at BRF
+                                    Studio 107 because of the amazing clients we get to serve and my fun co workers.
+                                </p>
                                 <ul class="list-inline">
                                     <li>
                                         <strong>Years of service:</strong>
@@ -861,7 +840,8 @@
                                     </li>
                                     <li>
                                         <strong>Services Offered:</strong>
-                                        Women's Cut, Men's Cut, Child's Cut, Beard Trim, Manicure, Pedicure, Waxing (FACIAL Only), Full or partial Color, Perm, Hair relaxer, Balayage/Ombre
+                                        Women's Cut, Men's Cut, Child's Cut, Beard Trim, Manicure, Pedicure, Waxing
+                                        (FACIAL Only), Full or partial Color, Perm, Hair relaxer, Balayage/Ombre
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
@@ -974,7 +954,8 @@
                                             Face........................................................................$28<br>
                                             Under Arm...........................................................$20<br>
                                             Half Leg............................................................$25<br>
-                                            Full Leg..............................................................$60<br>
+                                            Full
+                                            Leg..............................................................$60<br>
                                             Bikini........................................................................$30<br>
                                             Brazilian..................................................................$65<br>
                                         </p>

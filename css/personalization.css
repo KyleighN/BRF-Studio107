@@ -105,21 +105,31 @@ svg:not(:root) {
 .btn-dark {
     border-color: #F3EFD6;
 }
-/* .btn-dark:hover {
-    background-color: #F3EFD6;
-    color:#374540;
-    border-color: #374540;
- } */
+.btn-primary {
+    background-color: #374540;
+}
+.btn-primary:hover {
+    border-color:#ffff;
+    border-width: 3px;
+}
 
+a {
+    color: #ffff;
+    border-color: #374540;
+    text-decoration: none;
+    font-family: unna, serif;
+ } 
+ a:hover {
+    color: #ffff;
+    text-decoration: underline;
+    font-weight: bold;
+ } 
 section#contact .section-heading {
     color: #F3EFD6
 }
 .footer{
     background-color: #718B82;
 }
-/* .btn-primary:hover {
-    background-color: #374540;
-    color: #F3EFD6;} */
 #icon{
     padding-left: 8%;
     text-align: center;

@@ -103,9 +103,13 @@ svg:not(:root) {
 }
 .btn-dark {
     border-color: #F3EFD6;
+    background-color: #374540;
 }
 .btn-primary {
     background-color: #374540;
+}
+.btn-dark:hover {
+    border-color: #F3EFD6;
 }
 #mastheadCallbutton{
     background-color: #C2956E;
@@ -114,7 +118,6 @@ svg:not(:root) {
     border-color:#ffff;
     border-width: 3px;
 }
-
 a {
     color: #ffff;
     border-color: #374540;
@@ -170,4 +173,10 @@ section#contact .section-heading {
 }
 .instafeed{
     padding: 30px;
+}
+#footerid{
+    background-color:#F3EFD6;
+    border-color: #374540;
+    border-top-style: solid;
+    border-width: medium;
 }

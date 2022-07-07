@@ -43,7 +43,7 @@
                     <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
                     <li class="nav-item"><a class="nav-link" href="#socialMedia">Social Media</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    <button type="button" class="btn btn-primary btn-xlg" style="padding:10px 20px 10px 20px; width: 200px;font-size: 16px;font-family: unna, serif;background-color: #374540; color:#DC8F59;"> 
+                    <button type="button" class="btn btn-primary btn-xlg" style="padding:10px; width: 100px; font-size: 16px;font-family: unna, serif;background-color: #374540; color:#DC8F59;"> 
                         <a href="tel:7152842131">Call Now</a>
                     </button>
                 </ul>
@@ -55,7 +55,7 @@
         <div class="container">
             <div class="masthead-heading text-uppercase">Welcome to Studio 107!</div>
             <div class="masthead-subheading" style="font-size: 2 rem;"> located in Black River Falls, Wisconsin </div>
-            <button type="button" class="btn btn-primary btn-xlg" style="padding:10px 20px 10px 20px; width: 200px;font-size: 16px;font-family: unna, serif;background-color: #374540;color:#DC8F59;"> 
+            <button type="button" class="btn btn-primary btn-xlg" id="mastheadCallbutton" style="padding:10px 20px 10px 20px; width: 200px;font-size: 16px;font-family: unna, serif;"> 
                 <a href="tel:7152842131">Call Now</a>
             </button>
         </div>
@@ -69,7 +69,7 @@
             </div>
             <ul class="timeline">
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/1.jpeg" alt="..." />
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/1.jpeg" style="height:auto" alt="..." />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -81,7 +81,7 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/2.jpeg" alt="..." />
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/2.jpeg" style="height:auto"alt="..." />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -94,7 +94,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image"> <img class="rounded-circle img-fluid" src="images/makeup.jpeg"
+                    <div class="timeline-image"> <img class="rounded-circle img-fluid" src="images/makeup.jpeg" style="height:auto"
                             alt="..." />
                     </div>
                     <div class="timeline-panel">
@@ -108,7 +108,7 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/tenyears.jpeg"
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/tenyears.jpeg" style="height:auto"
                             alt="..." />
                     </div>
                     <div class="timeline-panel">
@@ -121,7 +121,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/closed.jpeg"
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/closed.jpeg" style="height:auto"
                             alt="..." />
                     </div>
                     <div class="timeline-panel">
@@ -134,7 +134,7 @@
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/6.jpeg" alt="..." />
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/6.jpeg" style="height:auto" alt="..." />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -146,7 +146,7 @@
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/7.jpeg" alt="..." />
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/7.jpeg" style="height:auto" alt="..." />
                     </div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
@@ -168,7 +168,6 @@
             </div>
             <div class="row text-center">
                 <div class="col-md-4" id="icon">
-                    <span class="fa-stack fa-4x"></span>
                     <div class="col-sm-6 mb-4">
                         <div class="portfolio-item-primary">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#hairModal">
@@ -182,7 +181,6 @@
                     </div>
                 </div>
                 <div class="col-md-4" id="icon">
-                    <span class="fa-stack fa-4x"></span>
                     <div class="col-sm-6 mb-4">
                         <div class="portfolio-item-primary">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#skinModal">
@@ -196,7 +194,6 @@
                     </div>
                 </div>
                 <div class="col-md-4" id="icon">
-                    <span class="fa-stack fa-4x"></span>
                     <div class="col-sm-6 mb-4">
                         <div class="portfolio-item-primary">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#nailModal">
@@ -223,14 +220,11 @@
                     <!-- Stylist 1-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-3x"></i></div>
-                            </div>
                             <img class="img-fluid" id="stylistphoto" src="images/Kelly2.0.jpeg" alt="Kelly" />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Kelly Nieman</div>
-                            <div class="portfolio-caption-subheading text-muted">Owner and Stylist</div>
+                            <div class="portfolio-caption-subheading text-muted">Owner and Cosmetologist</div>
                         </div>
                     </div>
                 </div>
@@ -238,14 +232,11 @@
                     <!-- Stylist 2-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-3x"></i></div>
-                            </div>
                             <img class="img-fluid" id="stylistphoto" src="images/sam.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Sam Marg</div>
-                            <div class="portfolio-caption-subheading text-muted">Stylist</div>
+                            <div class="portfolio-caption-subheading text-muted">Cosmetologist</div>
                         </div>
                     </div>
                 </div>
@@ -253,14 +244,11 @@
                     <!-- Stylist 3-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-3x"></i></div>
-                            </div>
                             <img class="img-fluid" id="stylistphoto" src="images/chealsey.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Chealsey Sanchez</div>
-                            <div class="portfolio-caption-subheading text-muted">Stylist</div>
+                            <div class="portfolio-caption-subheading text-muted">Cosmetologist</div>
                         </div>
                     </div>
                 </div>
@@ -268,14 +256,11 @@
                     <!-- Stylist 4-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-3x"></i></div>
-                            </div>
                             <img class="img-fluid" id="stylistphoto" src="images/hannah.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Hannah Brooke</div>
-                            <div class="portfolio-caption-subheading text-muted">Stylist</div>
+                            <div class="portfolio-caption-subheading text-muted">Cosmetologist</div>
                         </div>
                     </div>
                 </div>
@@ -283,14 +268,11 @@
                     <!-- Stylist 5-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-3x"></i></div>
-                            </div>
                             <img class="img-fluid" id="stylistphoto" src="images/Marley.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Marley Washburn</div>
-                            <div class="portfolio-caption-subheading text-muted">Stylist</div>
+                            <div class="portfolio-caption-subheading text-muted">Cosmetologist</div>
                         </div>
                     </div>
                 </div>
@@ -298,14 +280,11 @@
                     <!-- Stylist 6-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-3x"></i></div>
-                            </div>
                             <img class="img-fluid" id="stylistphoto" src="images/randi.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Randi Hale</div>
-                            <div class="portfolio-caption-subheading text-muted">Stylist</div>
+                            <div class="portfolio-caption-subheading text-muted">Cosmetologist</div>
                         </div>
                     </div>
                 </div>
@@ -313,14 +292,11 @@
                     <!-- Stylist 7-->
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-3x"></i></div>
-                            </div>
                             <img class="img-fluid" id="stylistphoto" src="images/michelle.jpeg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Michelle Zank</div>
-                            <div class="portfolio-caption-subheading text-muted">Stylist</div>
+                            <div class="portfolio-caption-subheading text-muted">Cosmetologist</div>
                         </div>
                     </div>
                 </div>
@@ -523,7 +499,7 @@
             <div class="container-fluid" style=" padding-bottom: 20px;">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2855.183856375157!2d-90.85157578510398!3d44.30617067910434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87fee693d75ec941%3A0x13deaff548cffadc!2sStudio%20107!5e0!3m2!1sen!2sus!4v1655757589234!5m2!1sen!2sus"
-                    width="1092" height="325" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="100%" height="325" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="container-fluid row">
@@ -540,7 +516,7 @@
                 <div class="salonContact col-sm">
                     <h2>Salon Contact Information </h2>
                     <p> Address: 310 County Road A, Black River Falls, WI 54615 <br>
-                        Phone: (715) 284-2131<br>
+                        Phone: <a href="tel:7152842131">(715) 284-2131</a><br>
                         Email: <a href="mailto:brfstudio107@gmail.com">brfstudio107@gmail.com </a></p>
                     <h6>PLEASE CALL US TO BOOK AN APPOINTMENT</h6>
                 </div>
@@ -1034,7 +1010,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

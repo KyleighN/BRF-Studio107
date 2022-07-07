@@ -94,7 +94,6 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 }
 img, svg {
     vertical-align: middle;
-    order: 1px solid transparent;
 }
 *, *::before, *::after {
     box-sizing: border-box;
@@ -107,6 +106,9 @@ svg:not(:root) {
 }
 .btn-primary {
     background-color: #374540;
+}
+#mastheadCallbutton{
+    background-color: #C2956E;
 }
 .btn-primary:hover {
     border-color:#ffff;
@@ -165,11 +167,6 @@ section#contact .section-heading {
 }
 .modal-dialog{
     background-color: #F3EFD6;
-}
-#mastheadCallbutton{
-    color: #fff;
-    background-color: #C2956E;
-    font-family: unna, serif;
 }
 .instafeed{
     padding: 30px;
